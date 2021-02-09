@@ -1,0 +1,29 @@
+{
+  "presets": [
+    // ES2015以降の文法を使えるようにする定番プリセット
+    "@babel/preset-env",
+    // 今回の主役。TypeScriptのコードから、型アノテーションの部分などを取り除く変換を行う。
+    "@babel/preset-typescript"
+
+    // ざっくり言うと、preset-typescriptは、TypeScriptからES2015以降への変換を担当し、
+    // preset-envは、ES2015以降からES5への変換を担当する。
+  ],
+  "plugins": [
+    "babel-plugin-macros",
+    [
+      "@emotion/babel-plugin-jsx-pragmatic",
+      {
+        "export": "jsx",
+        "import": "__cssprop",
+        "module": "@emotion/react"
+      }
+    ],
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "__cssprop",
+        "pragmaFrag": "React.Fragment"
+      }
+    ]
+  ]
+}
