@@ -24,7 +24,7 @@
     "@emotion/styled": "11.1.5",
     "autoprefixer": "10.2.4",
     "postcss": "8.2.5",
-    "tailwindcss": "2.0.2",
+    "tailwindcss": "2.0.3",
     "twin.macro": "2.2.3"
   },
   "devDependencies": {
