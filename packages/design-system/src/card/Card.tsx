@@ -1,14 +1,13 @@
-import React from "react";
-import "twin.macro";
+import React from 'react'
+import 'twin.macro'
 
 export interface CardProps {
-  className?: string;
-  children: React.ReactNode;
+  children: React.ReactNode
 
-  title?: React.ReactNode | string;
+  title?: React.ReactNode | string
 }
 
-export const Card: React.FC<CardProps> = ({ children, className, title }) => (
+export const Card: React.FC<CardProps> = ({ children, title }) => (
   <section tw="bg-white overflow-y-visible shadow rounded-lg flex flex-col gap-5">
     {title && (
       <div tw="bg-white px-3 py-5 border-b border-gray-200 sm:px-6">
@@ -17,4 +16,4 @@ export const Card: React.FC<CardProps> = ({ children, className, title }) => (
     )}
     <div>{children}</div>
   </section>
-);
+)
