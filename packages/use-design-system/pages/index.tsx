@@ -1,17 +1,16 @@
+import React from "react";
 import Link from "next/link";
-import Layout from "../components/Layout";
-import { Card } from "design-system";
+import "twin.macro";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <Card title="Title">Hello World</Card>
+  <div>
+    <h1 tw="p-4">Hello Next.js 👋</h1>
     <p>
       <Link href="/about">
         <a>About</a>
       </Link>
     </p>
-  </Layout>
+  </div>
 );
 
 export default IndexPage;
