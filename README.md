@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-
+### use-design-system
 ```
 cd packages/use-design-system
 
@@ -11,25 +11,12 @@ yarn install
 yarn dev
 ```
 
-### Hot to build watch
-
-**design-system**
-```
-cd packages/design-system
-
-yarn link
-
-yarn build:watch
-```
-
-
-**use-design-system**
-
+### design-system-with-styled-components
 
 ```
-cd packages/use-design-system
+cd packages/design-system-with-styled-components
 
-yarn link design-system
+yarn install
 
-yarn dev
+yarn storybook
 ```
