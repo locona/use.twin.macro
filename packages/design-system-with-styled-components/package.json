@@ -67,7 +67,11 @@
   ],
   "babelMacros": {
     "twin": {
-      "preset": "styled-components"
+      "preset": "styled-components",
+      "css": {
+        "from": "styled-components",
+        "import": "css"
+      }
     }
   }
 }
