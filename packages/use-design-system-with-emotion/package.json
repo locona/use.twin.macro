@@ -13,7 +13,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/server": "^11.0.0",
     "@emotion/styled": "^11.1.5",
-    "autoprefixer": "^10.2.4",
+    "autoprefixer": "10.2.6",
     "postcss": "^8.2.6",
     "next": "10.0.6",
     "react": "17.0.1",
