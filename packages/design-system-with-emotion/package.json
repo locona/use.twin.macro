@@ -34,7 +34,7 @@
     "babel-plugin-macros": "3.0.1",
     "postcss": "8.2.6",
     "tailwindcss": "2.0.3",
-    "twin.macro": "2.2.3"
+    "twin.macro": "2.8.2"
   },
   "devDependencies": {
     "@babel/core": "7.12.16",
