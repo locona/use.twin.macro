@@ -24,8 +24,8 @@
   "peerDependencies": {
     "@emotion/react": "11.1.5",
     "@emotion/styled": "11.1.5",
-    "@types/react": "17.0.1",
-    "react": "17.0.1"
+    "@types/react": "17.0.83",
+    "react": "17.0.2"
   },
   "dependencies": {
     "@emotion/react": "11.1.5",
@@ -48,12 +48,12 @@
     "@storybook/addon-links": "^6.1.18",
     "@storybook/react": "^6.1.18",
     "@tailwindcss/forms": "0.2.1",
-    "@types/react": "17.0.1",
-    "@types/react-dom": "17.0.1",
+    "@types/react": "17.0.83",
+    "@types/react-dom": "17.0.25",
     "babel-loader": "8.2.2",
     "prettier": "2.2.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "rollup": "2.38.5",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
