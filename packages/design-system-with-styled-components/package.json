@@ -35,10 +35,10 @@
     "twin.macro": "2.2.3"
   },
   "devDependencies": {
-    "@babel/core": "7.12.16",
-    "@babel/preset-env": "7.12.16",
-    "@babel/preset-react": "7.12.13",
-    "@babel/preset-typescript": "7.12.16",
+    "@babel/core": "7.25.9",
+    "@babel/preset-env": "7.25.9",
+    "@babel/preset-react": "7.25.9",
+    "@babel/preset-typescript": "7.25.9",
     "@storybook/addon-actions": "^6.1.18",
     "@storybook/addon-essentials": "^6.1.18",
     "@storybook/addon-links": "^6.1.18",
