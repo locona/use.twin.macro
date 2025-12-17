@@ -1941,10 +1941,10 @@
     resolve-from "^5.0.0"
     store2 "^2.7.1"
 
-"@tailwindcss/forms@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.2.1.tgz"
-  integrity sha512-czfvEdY+J2Ogfd6RUSr/ZSUmDxTujr34M++YLnp2cCPC3oJ4kFvFMaRXA6cEXKw7F1hJuapdjXRjsXIEXGgORg==
+"@tailwindcss/forms@0.5.11":
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.11.tgz#e77039e96fa7b87c3d001a991f77f9418e666700"
+  integrity sha512-h9wegbZDPurxG22xZSoWtdzc41/OlNEUQERNqI/0fOwa2aVlWGu7C35E/x6LDyD3lgtztFSSjKZyuVM0hxhbgA==
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
